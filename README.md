@@ -4,6 +4,8 @@ Steps:
 
     npm install
 
+Using node v5.3.0 and npm v3.3.12.
+
 Error (abridged):
 
 ```
