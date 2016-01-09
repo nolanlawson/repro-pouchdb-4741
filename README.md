@@ -1,12 +1,26 @@
+repro-pouchdb-4741
+=====
+
 Repro an apparent npm/node bug from https://github.com/pouchdb/pouchdb/pull/4741
 
-Steps:
+Steps to reproduce
+---
 
+    git clone https://github.com/nolanlawson/repro-pouchdb-4741.git
+    cd repro-pouchdb-4741
     npm install
 
-Using node v5.3.0 and npm v3.3.12.
+(Using node `v5.3.0` and npm `v3.3.12`.)
 
-Error (abridged):
+Expected results
+---
+
+npm doesn't crash.
+
+Actual results
+---
+
+ npm crashes. Here's the abridged error output:
 
 ```
 > node-pre-gyp install --fallback-to-build
